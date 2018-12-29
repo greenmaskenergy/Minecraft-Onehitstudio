@@ -1,0 +1,22 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/sandstone_bottom",
+        "top": "block/sandstone_top",
+        "side": "block/sandstone"
+    },
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"texture": "#top", "cullface": "false"},
+				"east": {"texture": "#top", "cullface": "false"},
+				"south": {"texture": "#top", "cullface": "false"},
+				"west": {"texture": "#top", "cullface": "false"},
+				"up": {"texture": "#top", "cullface": "false"},
+				"down": {"texture": "#top", "cullface": "false"}
+			}
+		}
+	]
+}
